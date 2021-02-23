@@ -13,5 +13,12 @@ namespace FizzBuzzTests
             var actual = FizzBuzzGame.AliceGiveNumberToBob(18);
             Assert.IsNotNull(actual);
         }
+
+        [TestMethod]
+        public void AliceGiveNumber0ToBob()
+        {
+            var actual = FizzBuzzGame.AliceGiveNumberToBob(0);
+            Assert.AreEqual(new ArgumentException(), actual);
+        }
     }
 }

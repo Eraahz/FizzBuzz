@@ -10,6 +10,10 @@ namespace FizzBuzz
     {
         public static int AliceGiveNumberToBob(int number)
         {
+            if (number == 0)
+            {
+                throw new ArgumentException();
+            }
             return number;
         }
     }
