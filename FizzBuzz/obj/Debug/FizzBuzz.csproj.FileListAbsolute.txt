@@ -1,0 +1,7 @@
+E:\Cours_Informatique\B3\Tests_unitaires_de_charges\CSHARP\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+E:\Cours_Informatique\B3\Tests_unitaires_de_charges\CSHARP\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
+E:\Cours_Informatique\B3\Tests_unitaires_de_charges\CSHARP\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+E:\Cours_Informatique\B3\Tests_unitaires_de_charges\CSHARP\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojAssemblyReference.cache
+E:\Cours_Informatique\B3\Tests_unitaires_de_charges\CSHARP\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+E:\Cours_Informatique\B3\Tests_unitaires_de_charges\CSHARP\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
+E:\Cours_Informatique\B3\Tests_unitaires_de_charges\CSHARP\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb

@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using FizzBuzz;
 
 namespace FizzBuzzTests
 {
@@ -7,9 +8,10 @@ namespace FizzBuzzTests
     public class FizzBuzzTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void AliceGiveNumberToBob()
         {
-
+            var actual = FizzBuzzGame.AliceGiveNumberToBob(18);
+            Assert.IsNotNull(actual);
         }
     }
 }

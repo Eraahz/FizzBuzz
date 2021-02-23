@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
-    class Program
+    public class FizzBuzzGame
     {
-        static void Main(string[] args)
+        public static int AliceGiveNumberToBob(int number)
         {
-           
+            return number;
         }
     }
 }
