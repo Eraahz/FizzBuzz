@@ -14,6 +14,7 @@ namespace FizzBuzzTests
             Assert.IsNotNull(actual);
         }
 
+        [ExpectedException(typeof(ArgumentException))]
         [TestMethod]
         public void AliceGiveNumber0ToBob()
         {
