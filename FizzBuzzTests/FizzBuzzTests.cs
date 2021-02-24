@@ -16,7 +16,7 @@ namespace FizzBuzzTests
 
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         [TestMethod]
-        public void AliceGiveNumber0ToBob()
+        public void AliceGiveNumber0ToBobExpectingArgumentOutOfRangeException()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(0);
             Assert.AreEqual(new ArgumentOutOfRangeException(), actual);
@@ -24,28 +24,28 @@ namespace FizzBuzzTests
 
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         [TestMethod]
-        public void AliceGiveNegativeNumberToBob()
+        public void AliceGiveNegativeNumberToBobExpectingArgumentOutOfRangeException()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(-18);
             Assert.AreEqual(new ArgumentOutOfRangeException(), actual);
         }
 
         [TestMethod]
-        public void AliceGiveNumberMultipleOf3()
+        public void AliceGiveNumberMultipleOf3ExpectingFizz()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(6);
             Assert.AreEqual("Fizz", actual);
         }
 
         [TestMethod]
-        public void AliceGiveNumberMultipleOf5()
+        public void AliceGiveNumberMultipleOf5ExpectingBuzz()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(10);
             Assert.AreEqual("Buzz", actual);
         }
 
         [TestMethod]
-        public void AliceGiveNumberMultipleOf5And3()
+        public void AliceGiveNumberMultipleOf5And3ExpectingFizzBuzz()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(15);
             Assert.AreEqual("FizzBuzz", actual);
