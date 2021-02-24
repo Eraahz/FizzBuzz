@@ -13,13 +13,15 @@ namespace FizzBuzz
             if (number == 0)
             {
                 throw new ArgumentException();
-            }
-
-            if (number < 0)
+            } 
+            else if (number < 0) 
             {
                 throw new ArgumentException();
+            } 
+            else
+            {
+                return number;
             }
-            return number;
         }
     }
 }
