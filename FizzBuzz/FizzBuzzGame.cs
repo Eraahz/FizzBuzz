@@ -18,7 +18,7 @@ namespace FizzBuzz
             {
                 throw new ArgumentException();
             } 
-            else if (number % 3 == 0 && number % 5 == 0) 
+            else if (number % 15 == 0) 
             {
                 return "FizzBuzz";
             }
