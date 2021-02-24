@@ -8,7 +8,7 @@ namespace FizzBuzz
 {
     public class FizzBuzzGame
     {
-        public static int AliceGiveNumberToBob(int number)
+        public static object AliceGiveNumberToBob(int number)
         {
             if (number == 0)
             {
@@ -18,6 +18,10 @@ namespace FizzBuzz
             {
                 throw new ArgumentException();
             } 
+            else if (number % 3 == 0)
+            {
+                return "Fizz";
+            }
             else
             {
                 return number;
