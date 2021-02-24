@@ -31,14 +31,14 @@ namespace FizzBuzzTests
         }
 
         [TestMethod]
-        public void AliceGiveNumberMultipleOf3ExpectingFizz()
+        public void AliceGiveNumberMultipleOf3OnlyExpectingFizz()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(6);
             Assert.AreEqual("Fizz", actual);
         }
 
         [TestMethod]
-        public void AliceGiveNumberMultipleOf5ExpectingBuzz()
+        public void AliceGiveNumberMultipleOf5OnlyExpectingBuzz()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(10);
             Assert.AreEqual("Buzz", actual);
