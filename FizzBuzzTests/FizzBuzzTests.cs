@@ -14,20 +14,20 @@ namespace FizzBuzzTests
             Assert.IsNotNull(actual);
         }
 
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         [TestMethod]
         public void AliceGiveNumber0ToBob()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(0);
-            Assert.AreEqual(new ArgumentException(), actual);
+            Assert.AreEqual(new ArgumentOutOfRangeException(), actual);
         }
 
-        [ExpectedException(typeof(ArgumentException))]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         [TestMethod]
         public void AliceGiveNegativeNumberToBob()
         {
             var actual = FizzBuzzGame.AliceGiveNumberToBob(-18);
-            Assert.AreEqual(new ArgumentException(), actual);
+            Assert.AreEqual(new ArgumentOutOfRangeException(), actual);
         }
 
         [TestMethod]

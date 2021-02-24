@@ -12,11 +12,11 @@ namespace FizzBuzz
         {
             if (number == 0)
             {
-                throw new ArgumentException();
+                throw new ArgumentOutOfRangeException();
             } 
             else if (number < 0) 
             {
-                throw new ArgumentException();
+                throw new ArgumentOutOfRangeException();
             } 
             else if (number % 15 == 0) 
             {
