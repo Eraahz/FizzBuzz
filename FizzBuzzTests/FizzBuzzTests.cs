@@ -43,5 +43,12 @@ namespace FizzBuzzTests
             var actual = FizzBuzzGame.AliceGiveNumberToBob(10);
             Assert.AreEqual("Buzz", actual);
         }
+
+        [TestMethod]
+        public void AliceGiveNumberMultipleOf5And3()
+        {
+            var actual = FizzBuzzGame.AliceGiveNumberToBob(15);
+            Assert.AreEqual("FizzBuzz", actual);
+        }
     }
 }
